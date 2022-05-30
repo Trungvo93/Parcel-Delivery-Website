@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background: linear-gradient(180deg, #FEF8F7 92.26%, #FFFFFF 106.27%);
+  padding: 2rem 10rem;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  flex: 10%;
+  flex-grow: 0;
+}
+.header__logo img {
+  width: 100%;
+}
+
+.header__info ul {
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.header__info li {
+  padding: 0px 2rem;
+}
+.header__info li a {
+  text-decoration: none;
+  color: #60646D;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__button--text {
+  padding-right: 1rem;
+}
+.header__button--text a {
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__button--btn {
+  padding: 0.5rem 1.5rem;
+  border-radius: 3px;
+  border: 0px;
+  background-color: #1C70FF;
+  color: #FBFDFD;
+  font-weight: 600;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.banner__text {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 5rem;
+  font-size: 1.5rem;
+  gap: 2rem;
+}
+
+.banner__info h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.banner__info h1 span {
+  color: #145FF0;
+}
+.banner__info p {
+  padding: 1rem 0;
+  color: #60646D;
+}
+
+.banner__button {
+  font-size: 1.2rem;
+}
+.banner__button span {
+  font-weight: 600;
+}
+
+.banner__button--btn {
+  color: white;
+  padding: 1rem 1.5rem;
+  background-color: #145FF0;
+  border-radius: 5px;
+  border: 0;
+  margin-right: 2rem;
+}
+
+.banner__bottom {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #60646D;
+  font-size: 1rem;
+}
+.banner__bottom ion-icon {
+  color: #145FF0;
+  font-size: 2rem;
+}
+
+.banner__img {
+  flex: 50%;
+}
+.banner__img img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
