@@ -199,3 +199,34 @@ main{
     }
     margin-bottom: auto;
 }
+
+
+.feature-1{
+    display: flex;
+    gap:10rem;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+.feature-1__img{
+    flex: 50%;
+    img{
+        width: 100%;
+    }
+}
+
+.feature-1__info{
+    flex: 50%;
+    h1{
+        font-size: 5rem;
+        font-weight: bolder;
+    }
+    p{
+        color: #60646D;
+        padding-top: 2rem;
+    }
+}
+
+.feature-2__info-title{
+    
+}

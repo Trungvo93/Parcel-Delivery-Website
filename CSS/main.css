@@ -197,4 +197,30 @@ main {
   font-weight: bold;
 }
 
+.feature-1 {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  padding: 10rem 0;
+}
+
+.feature-1__img {
+  flex: 50%;
+}
+.feature-1__img img {
+  width: 100%;
+}
+
+.feature-1__info {
+  flex: 50%;
+}
+.feature-1__info h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.feature-1__info p {
+  color: #60646D;
+  padding-top: 2rem;
+}
+
 /*# sourceMappingURL=main.css.map */
