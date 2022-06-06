@@ -200,6 +200,7 @@ main{
     margin-bottom: auto;
 }
 
+// FEATURE-1
 
 .feature-1{
     display: flex;
@@ -227,6 +228,153 @@ main{
     }
 }
 
-.feature-2__info-title{
-    
+
+// FEATURE-2
+.feature-2{
+    background-color: #FFF3F0;
+    margin: 0 -10rem;
+    padding:10rem;
+    display: flex;
+    gap:10rem;
+    margin-bottom: 20rem;
+}
+
+.feature-2__info{
+    flex: 40%;
+}
+
+.feature-2__info--title{
+    h1{
+        font-weight: bolder;
+        font-size: 4.8rem;
+    }
+}
+
+.feature-2__info--items{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    gap: 5rem;
+}
+
+.feature-2__info--item{
+    flex: 40%;
+    h2{
+        font-weight: 600;
+        font-size: 2.4rem;
+        padding-left: 2rem;
+    }
+    p{
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #60646D;
+        padding-left: 2rem;
+        margin: 0;
+    }
+}
+
+.feature-2__info--item:nth-child(1){
+    p{
+        border-left: #145FF0 solid 3px;
+    }
+}
+
+.feature-2__info--item:nth-child(2){
+    p{
+        border-left: #FF6845 solid 3px;
+    }
+}
+
+.feature-2__info--item:nth-child(3){
+    p{
+        border-left: #06183D solid 3px;
+    }
+}
+
+.feature-2__info--item:nth-child(4){
+    p{
+        border-left: #FCAA0F solid 3px;
+    }
+}
+
+.feature-2__card{
+   flex: 40%;
+}
+.around{
+    margin-bottom: -20rem;
+}
+
+.feature-2__card-total{
+    background-color: white;
+    border-radius: 3rem;
+    width: 70%;
+    padding-bottom: 5rem;
+    box-shadow: 0px 24px 68px rgba(0, 0, 0, 0.07);
+}
+.feature-2__card--main{
+    background-color: #FA8D74;
+    overflow: hidden;
+    border-radius: 3rem;
+    h1{
+        padding: 5rem 2.5rem;
+        font-weight: 600;
+        font-size: 2.8rem;
+        color: white;
+    }
+    img{
+        display: block;
+        margin:auto;
+        padding: 5rem;
+        width: 100%;
+    }
+}
+
+.feature-2__card--title{
+    h1{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    padding: 5rem 2.5rem;
+}
+
+.feature-2__card--items{
+    display: flex;
+    gap: 1rem;
+    transform: translateX(5%);
+    width: 120%;
+}
+
+.feature-2__card--item{
+    padding: 2rem;
+    box-shadow: 0px 14px 44px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    flex: 33%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 2rem;
+}
+
+.feature-2__card--ava{
+    img{
+        overflow: hidden;
+        border-radius: 50%;
+        width: 50%;
+    }
+}
+.feature-2__card--name{
+    padding-top:1.2rem;
+    padding-bottom: 0.4rem;
+    h3{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+
+.feature-2__card--info{
+        margin-top: auto;
+        p{
+            font-size: 0.8rem;
+            color: #60646D;
+        }
 }
