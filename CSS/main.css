@@ -420,13 +420,19 @@ main {
 }
 
 .newsletter {
-  background-image: url(../img/Group\ 4396.png);
-  background-repeat: no-repeat;
-  background-position-y: 50%;
   padding: 20rem 0;
   position: relative;
 }
-.newsletter img {
+
+.newsletter__bg--left {
+  margin-left: -10rem;
+}
+.newsletter__bg--left img {
+  position: absolute;
+  z-index: -1;
+}
+
+.newsletter__bg--right img {
   position: absolute;
   right: 0;
   z-index: -1;
@@ -464,6 +470,93 @@ main {
   color: white;
   background-color: #145FF0;
   border: 0;
+}
+
+footer {
+  padding: 10rem;
+  display: flex;
+  gap: 2rem;
+  background-color: #06183D;
+}
+
+.footer__social {
+  flex: 45%;
+}
+
+.footer__social--title h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: white;
+  font-style: italic;
+  display: inline-block;
+}
+
+.footer__social--circle {
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #145FF0;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.footer__social--text {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 400;
+  padding-top: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.footer__social--icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer__social--icon {
+  background-color: #2B3956;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__social--icon i {
+  color: white;
+}
+
+.footer__social--icon:nth-child(3) {
+  background-color: #145FF0;
+}
+
+.footer__items {
+  flex: 45%;
+  color: white;
+  display: flex;
+  gap: 10rem;
+}
+
+.footer__item {
+  flex: 30%;
+}
+
+.footer__item--title h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.footer__item--list ul {
+  list-style: none;
+  padding: 0;
+}
+.footer__item--list li {
+  padding: 0.5rem 0;
+}
+.footer__item--list li a {
+  text-decoration: none;
+}
+.footer__item--list li span {
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
