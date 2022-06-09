@@ -27,9 +27,6 @@ header {
   flex: 10%;
   flex-grow: 0;
 }
-.header__logo img {
-  width: 100%;
-}
 
 .header__info ul {
   margin: 0px;
@@ -64,6 +61,20 @@ header {
   color: #FBFDFD;
   font-weight: 600;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.header__drops {
+  display: none;
+  height: 100%;
+}
+.header__drops ion-icon {
+  font-size: 2rem;
+}
+
+.header__drop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner {
@@ -557,6 +568,124 @@ footer {
 }
 .footer__item--list li span {
   color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .header__info li {
+    padding: 0px 1rem;
+  }
+  .header__info li a {
+    font-size: 1.2rem;
+  }
+
+  .header__button--text a {
+    font-size: 1.2rem;
+  }
+
+  .header__button--btn {
+    font-size: 1.2rem;
+  }
+
+  .banner__info h1 {
+    font-size: 3rem;
+  }
+
+  .feature-1__info {
+    flex: 50%;
+  }
+  .feature-1__info h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .feature-1__info p {
+    color: #60646D;
+    padding-top: 2rem;
+  }
+
+  .feature-2 {
+    gap: 5rem;
+  }
+
+  .feature-2__info--title h1 {
+    font-size: 3rem;
+  }
+
+  .feature-2__card--items {
+    width: 100%;
+  }
+
+  .testimonial {
+    gap: 5rem;
+  }
+
+  .testimonial__right--text p {
+    font-size: 2rem;
+  }
+
+  .footer__items {
+    gap: 5rem;
+  }
+
+  .footer__social--text {
+    font-size: 1.2rem;
+  }
+
+  .footer__social--icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer__item--title h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer__item--list li span {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__info {
+    display: none;
+  }
+
+  .header__drops {
+    display: block;
+  }
+
+  .banner__button {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner__button span {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .banner__button--btn {
+    margin: 0;
+  }
+
+  .provide__cards {
+    flex-direction: column;
+  }
+
+  .feature-1 {
+    flex-direction: column;
+  }
+
+  .feature-1__img img {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  .feature-2 {
+    flex-direction: column;
+  }
+
+  .feature-2__info--item {
+    flex: 45%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
